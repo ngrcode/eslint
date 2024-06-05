@@ -1,0 +1,20 @@
+{
+  "name": "eslintplugincustom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.24.6",
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-awwfrontend-eslint": "file:plugins/awwfrontend-eslint",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-react": "^7.34.2"
+  }
+}
